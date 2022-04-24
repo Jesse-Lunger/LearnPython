@@ -3,8 +3,8 @@ Todo:
 collect data from input.txt into a nested list/2d array [[row data],[row data], ....]
 input txt must be in current working directory.
 
-Wite a function that takes a nested list of any size and determines if there are multiples
-of any number, either in the row or the column
+Wite two functions: On that checks a designated row for multiples of any number, the other that
+checks a designated column for multiples of any number
 
 Will need to look up:
 open, close, split, append
@@ -24,8 +24,14 @@ def collectInput(fileName):
     pass
 
 
-
-def findMultiples2dArray(arr):
+def findMultiplesRow(arr, row):
     '''
+    todo: Checks for doubles in row
+    '''
+    pass
+
+def findMultiplesCol(arr, col):
+    '''
+    todo: Checks for doubles in column
     '''
     pass
