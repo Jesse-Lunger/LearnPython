@@ -7,7 +7,7 @@ Wite two functions: On that checks a designated row for multiples of any number,
 checks a designated column for multiples of any number
 
 Will need to look up:
-open, close, split, append
+open, close, split, append, len
 
 refresher:
 myList = [a,b, [c, d]]
